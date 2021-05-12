@@ -51,12 +51,14 @@
 
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lottery"
                 tools:srcCompat="@drawable/lottery" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/CardView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"
@@ -100,7 +102,8 @@
 
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/constellation"
                 tools:srcCompat="@drawable/constellation" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -147,7 +150,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/name"
                 tools:srcCompat="@drawable/name" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
