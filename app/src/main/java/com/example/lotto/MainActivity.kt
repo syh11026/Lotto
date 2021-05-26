@@ -22,9 +22,10 @@ fun getRandomLottoNumbers(): MutableList<Int>{
                 flag_existing = 1;
                 //continue;
             }
-        if (flag_existing.equals(1))
-            continue
-        else
+
+     //   if (flag_existing.equals(1))
+      //      continue
+      //  else
             lottoNumbers.add(number)
         if (lottoNumbers.size>=6)
             break;
