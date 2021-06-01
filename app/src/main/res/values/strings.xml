@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Reversal Lotto</string>
-   <string name="랜덤 숫자 생성"> random number generation </string>
+   <string name="comment"> random number generation </string>
 </resources>
